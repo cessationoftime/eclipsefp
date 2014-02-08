@@ -34,4 +34,40 @@ This file is at the root of the project, and below it you should see all the plu
 * [net.sf.eclipsefp.haskell.util](https://github.com/JPMoresmau/eclipsefp/tree/master/net.sf.eclipsefp.haskell.util) utilities methods
 * [net.sf.eclipsefp.haskell.util.test](https://github.com/JPMoresmau/eclipsefp/tree/master/net.sf.eclipsefp.haskell.util.test) tests for utilities
 * [net.sf.eclipsefp.haskell.visual](https://github.com/JPMoresmau/eclipsefp/tree/master/net.sf.eclipsefp.haskell.visual) dabbling with visual programming, not working
+* 
+
+# Requirements
+
+prevent error message: "Unknown Mozilla path (MOZILLA_FIVE_HOME not set)"
+```bash
+sudo apt-get install libwebkitgtk-1.0-0 
+```
+
+# Helper executables installation
+
+```bash
+cabal install buildwrapper
+cabal install scion-browser  #if you want syntax highlighting
+cabal install hoogle
+cabal install alex
+cabal install happy
+cabal install hlint
+cabal install snap
+cabal install SourceGraph
+cabal install stylish-haskell
+cabal install uuagc
+
+cabal install yesod  #if doing web development
+```
+
+# Helper executables PATH setup
+Inside eclipse:  Window -> Preferences -> Haskell -> Helper executables
+
+Most of these will likely be installed to:
+/home/YOUR_PROFILE_NAME/.cabal/bin/buildwrapper
+
+
+
+
+
 
