@@ -38,9 +38,13 @@ This file is at the root of the project, and below it you should see all the plu
 
 # Requirements
 
+```bash
+sudo apt-get install libncurses-dev
+```
+
 prevent error message: "Unknown Mozilla path (MOZILLA_FIVE_HOME not set)"
 ```bash
-sudo apt-get install libwebkitgtk-1.0-0 
+sudo apt-get install libwebkitgtk-1.0-0
 ```
 
 # Helper executables installation
