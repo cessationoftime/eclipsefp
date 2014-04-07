@@ -38,9 +38,17 @@ This file is at the root of the project, and below it you should see all the plu
 
 # Requirements
 
-to give eclipse a working file menu in Ubuntu, create file "eclipse.desktop" with the following contents
+To give eclipse a working file menu in Ubuntu, create file "eclipse.desktop" with the following contents. Then set permissions to make it executable.
 ```bash
-env UBUNTU_MENUPROXY=0 /home/cvanvranken/eclipseFP-workspace/eclipse-standard/eclipse
+[Desktop Entry]
+Type=Application
+Name=Eclipse
+Comment=Eclipse Integrated Development Environment
+Icon=/home/cvanvranken/Apps/eclipse/icon.xpm
+Exec=env UBUNTU_MENUPROXY=0 /home/cvanvranken/Apps/eclipse/eclipse
+Terminal=false
+Categories=Development;IDE;Java;
+StartupWMClass=Eclipse
 ```
 
 ```bash
