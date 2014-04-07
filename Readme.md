@@ -38,6 +38,11 @@ This file is at the root of the project, and below it you should see all the plu
 
 # Requirements
 
+to give eclipse a working file menu in Ubuntu, create file "eclipse.desktop" with the following contents
+```bash
+env UBUNTU_MENUPROXY=0 /home/cvanvranken/eclipseFP-workspace/eclipse-standard/eclipse
+```
+
 ```bash
 sudo apt-get install libncurses-dev
 ```
